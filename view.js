@@ -4,7 +4,7 @@ function show() {
   let tempPage = "";
   tempPage += handlekurv();
   tempPage += /*html*/ `
-    <header><div class="logo">some<span>thing</span>
+    <header><div class="logo">A Web<span>Store</span>
     <div class="sidebar">${navigator()}</div>
     <div class='shoppingCart' onclick='toggleShoppingCart()'>🛒</div>
     </header>
