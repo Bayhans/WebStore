@@ -12,8 +12,7 @@ let webStore = {
             {id: 7, item: "solo", volume: "1.5l", price: 32.50, classes: "portfolio-item medium"},
         ]
     },
-    
-    navItems: ["home", "products", "about us"],
+    pages: ["home", "categories","products", "about us"],
     
     shoppingCart: [],
 
@@ -21,7 +20,6 @@ let webStore = {
 };
 
 let page = ["home"];
-let navCounter = 1;
-let navCounterBack = -2; 
-let navCounterForward = 2;
+
+
  
